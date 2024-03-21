@@ -1,0 +1,23 @@
+.style {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+.style1 {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+.style input {
+    margin: 2px;
+}
+
+.style button {
+    margin: 2px;
+}
+
+.style label {
+    margin: 2px;
+}

@@ -1,0 +1,38 @@
+<!-- DOM – Create an HTML Element -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="createanHtmlelement.css">
+</head>
+<title>javascript Create Div Element Dynamically </title>
+
+<script type = "text/javascript"language="javascript">
+    function createDiv()
+    {
+        var divTag = document.createElement("div");
+        
+        divTag.id= "div1";
+
+        divTag.setAttribute("align"," center");
+
+        divTag.style.margin= "0xp auto"
+
+        divTag.className = "dynamicDiv";
+
+        divTag.innerHTML = "This HTML Div tag Created using javascript DOM dynamically";
+
+        document.body.appendChild(divTag);
+    }
+    </script>
+</head>
+<body>
+    <p align= "center">
+        <b> Click this button to create div element dynamically:</b>
+         <input id="btn1" type = "button"  value = "create div" onclick =" createDiv();" />
+     </p> 
+     
+</body>
+</html>
